@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Outfit", sans-serif;
+
+  --color-pastel-sage: #E8EBE4;
+  --color-pastel-sage-dark: #AAB9A0;
+  --color-pastel-sage-darker: #7C8B72;
+  --color-pastel-rose: #F5EAE6;
+  --color-pastel-rose-dark: #D4B9AF;
+  --color-pastel-peach: #FDFBF7;
+  
+  --color-text-dark: #2F3E32;
+  --color-text-muted: #6B7B6E;
+
+  --shadow-3d-soft: 10px 10px 30px rgba(170, 185, 160, 0.2), -10px -10px 30px rgba(255, 255, 255, 0.8);
+  --shadow-3d-hover: 15px 15px 40px rgba(170, 185, 160, 0.25), -15px -15px 40px rgba(255, 255, 255, 0.9);
+  --shadow-inner-soft: inset 5px 5px 15px rgba(170, 185, 160, 0.15), inset -5px -5px 15px rgba(255, 255, 255, 0.8);
+}
+
+@layer base {
+  body {
+    @apply bg-pastel-peach text-text-dark font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}

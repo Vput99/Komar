@@ -1,0 +1,6 @@
+{
+  "name": "Botanica",
+  "description": "Herbal beauty e-commerce with 3D minimalist design and soft pastel colors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
